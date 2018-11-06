@@ -27,7 +27,6 @@ namespace Week11_Reflection
 		{
 			return this.Deck;
 		}
-		// public List<Card> Deck = new List<Card>();
-
+		
 	}
 }

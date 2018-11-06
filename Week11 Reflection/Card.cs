@@ -27,6 +27,7 @@ namespace Week11_Reflection
 			{ 12 , "Queen" },
 			{ 13 , "King" }
 		};
+
 		public Dictionary<string, string> SuitText = new Dictionary<string, string>
 		{
 			{ "h" , "Hearts" },
@@ -34,7 +35,6 @@ namespace Week11_Reflection
 			{ "d" , "Diamonds" },
 			{ "c" , "Clubs" }
 		};
-		
 
 		public Card(int rank,string suit)
 		{
