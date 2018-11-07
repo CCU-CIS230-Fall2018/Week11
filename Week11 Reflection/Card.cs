@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week11_Reflection
 {
-	class Card
+	public class Card
 	{
 		public int Rank { get; set; }
 		public string Suit { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week11_Reflection
 {
-	class CardDeck
+	public class CardDeck
 	{
 		private Card TestCard = new Card(1, "h");
 		public Card[] Deck = new Card[52];

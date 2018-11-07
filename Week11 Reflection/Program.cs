@@ -10,12 +10,14 @@ namespace Week11_Reflection
 	{
 		static void Main(string[] args)
 		{
-			CardDeck newDeck = new CardDeck();
-			Card[] newerDeck = newDeck.GetDeck();
-			foreach (Card card in newerDeck)
-			{
-				Console.WriteLine(card.ShowCard());
-			}
+			Card card = new Card(1, "d");
+
+
+			var deck = Activator.CreateInstance(typeof(CardDeck)) as CardDeck;
+			var deck1 = new CardDeck();
+			Console.WriteLine(deck.Deck[0].ShowCard());
+			Console.WriteLine(deck1.Deck[0].ShowCard());
+
 		}
 	}
 }
