@@ -1,0 +1,7 @@
+﻿Create a Class Library and a Test project that demonstrate reflection:
+The Class Library should contain at least two (2) classes, each with at least two (2) properties and one (1) method.
+The Test project should contain at least one test class for each of the classes in the Class Library
+Each test class should use reflection to:
+Confirm that the class can be constructed
+Confirm that each property can be written and read (or just read if it is read-only)
+Confirm that each method can be invoked
